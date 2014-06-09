@@ -127,6 +127,7 @@ log4j = {
 
 
 // Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.fii.rejectPublicInvocations = false
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.guava.Person'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.guava.PersonAuthority'
 grails.plugin.springsecurity.authority.className = 'com.guava.Authority'
@@ -137,6 +138,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**/js/**':                      ['permitAll'],
 	'/**/css/**':                     ['permitAll'],
 	'/**/images/**':                  ['permitAll'],
-	'/**/favicon.ico':                ['permitAll']
+	'/**/favicon.ico':                ['permitAll'],
+    '/login/**':                      ['permitAll'],
+    '/logout/**':                     ['permitAll']
 ]
 
