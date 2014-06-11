@@ -4897,3 +4897,1839 @@ java.net.SocketTimeoutException: Read timed out
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,513 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,517 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,517 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,517 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,546 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,547 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,547 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,547 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,550 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,554 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,554 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,554 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,559 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,559 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,559 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,559 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,565 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,565 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,565 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,566 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,569 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,571 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,571 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:14:56,571 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:15:10,239 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:15:10,240 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:15:53,118 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:15:53,118 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,018 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,018 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,021 [http-bio-8080-exec-6] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,021 [http-bio-8080-exec-6] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,022 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,022 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,068 [http-bio-8080-exec-8] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,068 [http-bio-8080-exec-8] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,300 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,300 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,301 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:16:53,301 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:40,994 [http-bio-8080-exec-8] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:40,994 [http-bio-8080-exec-8] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,971 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,971 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,974 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,974 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,975 [http-bio-8080-exec-4] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,976 [http-bio-8080-exec-4] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,977 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:17:53,977 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:18:00,996 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:18:00,996 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:19,900 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:19,900 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:19,904 [http-bio-8080-exec-6] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:19,904 [http-bio-8080-exec-6] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:19,954 [http-bio-8080-exec-8] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:19,954 [http-bio-8080-exec-8] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:20,462 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:20,462 [http-bio-8080-exec-10] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:20,463 [http-bio-8080-exec-7] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:20,463 [http-bio-8080-exec-7] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:20,464 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:19:20,464 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:46:16,284 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:70)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:134)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:132)
+	... 26 more
+2014-06-10 20:46:16,287 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:134)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:70)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:132)
+	... 26 more
+2014-06-10 20:46:16,287 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:132)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:70)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:46:16,288 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,288 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,288 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,288 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:46:16,289 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,369 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,370 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,370 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:46:16,370 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,370 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,371 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,371 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:46:16,371 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,371 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,372 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:46:16,372 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:46:16,372 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: com.guava.LoginController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: com.guava.LoginController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,290 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1512)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:70)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:134)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:132)
+	... 26 more
+2014-06-10 20:54:26,292 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:134)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:70)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:132)
+	... 26 more
+2014-06-10 20:54:26,293 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:132)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:70)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:54:26,293 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,293 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,294 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,294 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:54:26,294 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,392 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,392 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,393 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:54:26,393 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,393 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,394 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,394 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:54:26,394 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,394 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,395 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 20:54:26,395 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 20:54:26,395 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: guava.UserController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: guava.UserController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2014-06-10 21:03:14,444 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,445 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,445 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,446 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/webxml-1.4.1/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,476 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,476 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,476 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,477 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/jquery-1.11.0.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,480 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,480 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,480 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,481 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/database-migration-1.4.0/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,487 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,487 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,488 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,488 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/scaffolding-2.0.3/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,491 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,492 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,492 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,492 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/searchable-0.6.5/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,498 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:177)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.isJarResource(PathMatchingResourcePatternResolver.java:411)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:340)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:279)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.getPluginBundles(PluginAwareResourceBundleMessageSource.java:146)
+	at org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessageSource.afterPropertiesSet(PluginAwareResourceBundleMessageSource.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:786)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:467)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:156)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:169)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:127)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:122)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:108)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4973)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5467)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,501 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,501 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:14,501 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.io.FileNotFoundException: class path resource [web-app/Users/David/git/guava/target/work/resources/plugins/cache-1.1.2/grails-app/i18n/] cannot be resolved to URL because it does not exist
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:26,532 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:26,532 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:28,154 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:168)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:03:28,155 [http-bio-8080-exec-1] ERROR StackTrace  - Full Stack Trace:
+java.io.EOFException: Unexpected EOF read on the socket
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:27,319 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:27,319 [http-bio-8080-exec-3] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:27,415 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:27,415 [http-bio-8080-exec-2] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:27,597 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:27,597 [http-bio-8080-exec-9] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:28,169 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:28,169 [http-bio-8080-exec-5] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:28,171 [http-bio-8080-exec-7] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:04:28,171 [http-bio-8080-exec-7] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:05:47,294 [http-bio-8080-exec-6] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:516)
+	at org.apache.coyote.http11.InternalInputBuffer.fill(InternalInputBuffer.java:501)
+	at org.apache.coyote.http11.Http11Processor.setRequestLineReadTimeout(Http11Processor.java:167)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:946)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+2014-06-10 21:05:47,295 [http-bio-8080-exec-6] ERROR StackTrace  - Full Stack Trace:
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)

@@ -7,7 +7,9 @@ class Person {
 	String realName
     String username
 	String password
-	boolean enabled = true
+    String email
+    Date	dateCreated
+    boolean enabled = true
 	boolean accountExpired
 	boolean accountLocked
 	boolean passwordExpired
